@@ -16,11 +16,13 @@ padding: 0;
 body {
 font-family: Arial, sans-serif;
 font-size: 22px;
+/* Fonte aumentada para leitura */
 line-height: 1.5;
 color: var(--texto);
 background-color: var(--fundo);
 }
 
+/* ---MENU DE ACESSIBILIDADE--- */
 .barra-acessibilidade{
 position: fixed;
 top: 0;
@@ -61,6 +63,7 @@ color: #ffffff;
 border: none;
 }
 
+/* 1. Início: Banner com Botão e Ajuda */
 .banner{
 background-color: var(--primaria);
 color: white;
@@ -110,6 +113,7 @@ height: 100%;
 background-color: rgba(4, 35, 82, 0.7);
 }
 
+/* O que fazer agora? */
 .modal-conteudo{
 background-color: #afd6ec;
 padding: 40px;
@@ -123,3 +127,35 @@ max-width: 90%;
 width: 600px;
 margin: 0 !important;
 }
+
+ol{
+padding: 40px;
+}
+
+/* 2. Dicas Importantes */
+.grandes-dicas{
+display: grid;
+gap: 20px;
+}
+
+.cartao-dica{
+background: var(--fundo-cartao);
+padding: 20px;
+border-radius: 15px;
+border-left: 15px solid var(--primaria);
+}
+
+.cartao-dica strong{
+display: block;
+font-size: 1.4rem;
+margin-bottom: 5px;
+color: var(--primaria);
+}
+
+/* 3. Direitos na Internet */
+.caixas-direito{
+background-color: #2314ff;
+padding: 40px;
+border-radius: 15px;
+}
+
